@@ -22,4 +22,4 @@ jobs:
         run: npm install
 
       - name: Run Basic Unit Test Script
-        run: sh unit_tests/run-server-unit-test.sh
+        run: sh scripts/run-server-unit-test.sh

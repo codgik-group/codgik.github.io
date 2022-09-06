@@ -2,7 +2,7 @@ name: Check-Node-Express
 on: [push]
 jobs:
   run-node-js-scripts:
-    needs: run-shell-scripts-01
+
     runs-on: ubuntu-latest
 
     strategy:
@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-      
+
       - name: Install Node Packages
         run: npm install
 

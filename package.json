@@ -1,0 +1,18 @@
+{
+  "name": "codgik.github.io",
+  "version": "1.0.0",
+  "description": "Repository for codgik.github.io web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cheerio": "^1.0.0-rc.12",
+    "jsdom": "^20.0.0",
+    "mocha": "^10.0.0"
+  }
+}

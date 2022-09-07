@@ -4,7 +4,8 @@
   "description": "Repository for codgik.github.io web page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "newman": "newman"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +13,9 @@
   "dependencies": {
     "chai": "^4.3.6",
     "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.1",
     "jsdom": "^20.0.0",
-    "mocha": "^10.0.0"
+    "mocha": "^10.0.0",
+    "newman": "^5.3.2"
   }
 }
